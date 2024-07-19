@@ -5,13 +5,5 @@
 
 {% block content %}
 <h1>This is our home page</h1>
-<img class="bookcover" src="{% static 'images/IMG_2821.JPEG' %}" alt="">
-{% if user.is_authenticated %}
-<p>Hi {{user.username}}!</p>
-<a href="{% url 'logout' %}">Log Out</a>
-{% else %}
-<p>You are not logged in!</p>
-<a href="{% url 'login' %}">Log In</a>
-<a href="{% url 'signup' %}">Sign Up</a>
-{% endif %}
+<img class="bookcover" src="{% static 'images/dfp.jpg' %}" alt="">
 {% endblock content %}
