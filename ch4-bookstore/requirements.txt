@@ -6,3 +6,4 @@ typing_extensions==4.12.2
 django-crispy-forms==1.14.0
 crispy-bootstrap5==0.7
 django-allauth==0.63.6
+environs[django]==11.0.0
