@@ -143,12 +143,3 @@ ACCOUNT_EMAIL_VERIFICATION = "none"  # new
 
 LOGIN_REDIRECT_URL = "/"  # new
 
-# new below
-# SOCIALACCOUNT_PROVIDERS = {
-#     "github": {
-#         "APP": {
-#             "client_id": "Ov23likq3Mf2Dz4YXDLN",
-#             "secret": "acb63ad0b22ceb565413eedff6b9582d7a665c3e",
-#         }
-#     }
-# }
