@@ -152,6 +152,7 @@ AUTHENTICATION_BACKENDS = (
     "django.contrib.auth.backends.ModelBackend",
     "allauth.account.auth_backends.AuthenticationBackend",
 )
+
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 ACCOUNT_SESSION_REMEMBER = True
@@ -162,3 +163,6 @@ ACCOUNT_EMAIL_REQUIRED=True
 ACCOUNT_UNIQUE_EMAIL=True
 
 DEFAULT_FROM_EMAIL = "admin@djangobookstore.com"
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
